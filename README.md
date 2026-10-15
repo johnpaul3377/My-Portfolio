@@ -1,2 +1,108 @@
-# My-Portfolio
-Portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Information</h1>
+        <p class="description"> Your Future Frontend Developer</p>
+        
+    </header>
+    
+    <nav>
+        <a href="about">About Me</a>
+        <a href="projects">My Projects</a>
+        <a href="skills">Skills</a>
+        <a href="contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="Images/IMG_1.jpg" alt="Profile Picture" class="profile-picture">
+
+        <h3> Hello, I'm Paul N. Chat-oren!</h3>
+
+       <p>
+            I am an Information Technology student who is interested in
+            computers. I enjoy learning new technologies and improving my 
+            skills through different projects and activities.
+        </p>
+
+            Outside of my academic activities, I enjoy spending time with
+            friends and family, exploring new things, watching videos, and
+            learning new skills. I always try to make use of my free time
+            by doing things that can help me grow personally and academically.
+
+        <p>
+            My goal is to become a successful IT professional and use my
+            knowledge and skills to create useful and meaningful projects.
+        
+        </p>
+
+    </section>
+    <section class="team-section">
+        <h2 class="team-title">My Projects</h2>
+        <div class="team-container">
+            <div class="profile">
+                <img src="images/profile_1.jpg" alt="Paul Chat-oren">
+                <h3 class="name">Paul Chat-oren</h3>
+                <p class="role">CEO</p>
+                <p class="email">Email:paulchatoren@gmail.com</p>
+            </div>
+            <div class="profile">
+                <img src="images/profile_2.jpg" alt="John Smith">
+                <h3 class="name">JohnSmith</h3>
+                <p class="role">Web Developer | Student</p>
+                <p class="email">Email:johnsmith@gmail.com</p>
+            </div>
+            <div class="profile">
+                <img src="images/profile_3.jpg" alt="Mike Johnson">
+                <h3 class="name">Mike Johnson</h3>
+                <p class="role">Web Developer | Student</p>
+                <p class="email">Email:mikejohnson@gmail.com</p>
+            </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>Basic HTML</li>
+            <li>Basic CSS</li>
+            <li>Basic Java</li>
+            <li>Computer Troubleshooting</li>
+            <li>Basic Python</li>
+        </ul>
+
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+
+     <footer>
+        <p>&copy; 2026 CHAT-OREN. All Rights Reserved.</p>
+        <p>August 17,2026 4-5pm</p>
+    </footer>
+
+
+</body>
+</html>
