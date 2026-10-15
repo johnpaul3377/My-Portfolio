@@ -1,0 +1,107 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 36px;
+    margin: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: rgb(189, 174, 174);
+}
+
+header {
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding:  60px 20px;
+}
+
+nav  {
+    background-color: black ;
+    text-align: center;
+    padding: 15px ;
+
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin:0 20px;
+    font-size: 16px;
+    font-weight:bold;
+
+}
+nav a:hover {
+    color: #ffeb3b;
+    border-bottom: 2px solid #ffeb3b;
+
+}
+section {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+}
+
+
+img {
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+    border: 1.5px solid #4a9a6a;
+    box-shadow: 0 0 10px #0d47a1;
+}
+
+input, textarea {
+    width: 50%;
+    padding: 6px;
+}
+
+input[type="submit"] {
+    width: auto;
+    background-color: rgb(25, 14, 172);
+    color: white;
+}
+.team-section{
+    font-family:'Montserrat', sans-serif;
+    padding: 40px;
+    background-color: #f4f4f4;
+}
+
+.team-container{
+    display: flex;  
+    gap: 15px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+.profile{
+    width: 280px;
+    background: 5px solid #a0a0a0;
+    border-radius:13px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+.profile img{
+    width:120px;
+    height: 120px;
+    border-radius:30px;
+    border: 1px solid #4a9a6a;
+    object-fit: cover;
+}
+.profile h3{
+    margin: 15px 0 5px 0 ;
+    font-size: 22px;
+    color: #111;
+}
+.profile .role {
+    margin: 0;
+    color: #555;
+    font-size: 14px;
+}
+.profile .email {
+    margin:5px;
+    color:#555;
+    font-size: 14px;
+}
